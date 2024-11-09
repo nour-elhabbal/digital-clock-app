@@ -4,7 +4,7 @@ import useWakeLock from "react-use-wake-lock";
 
 function App() {
   const date = new Date();
-  const { request, isLocked } = useWakeLock();
+  const { request } = useWakeLock();
 
   const [time, setTime] = useState(
     `${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`
