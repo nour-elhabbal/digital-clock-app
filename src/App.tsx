@@ -31,7 +31,7 @@ function App() {
       <Flex w="100vw" h="100vh" justify="center" align="center">
         <Box
           as="h1"
-          fontSize="8xl"
+          fontSize={["4xl", "9xl"]}
           fontFamily="'Orbitron', serif"
           color="red.600"
           fontWeight="800"
